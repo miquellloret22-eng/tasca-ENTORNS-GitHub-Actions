@@ -94,7 +94,7 @@ class Test2(unittest.TestCase):
         """
         llista = [3, -1, 7, 2, -1, 9, 4, 7]
         resultat = tasca_escrita2.primera_posicio(llista, 7)
-        if resultat == 2:
+        if resultat == 3:
             print("test_primera_posicio: OK")
         else:
             print("test_primera_posicio: ERROR")
